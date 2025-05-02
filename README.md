@@ -2,7 +2,7 @@
 
 A sleek, personalized browser start page with a live clock, greeting, and quick-access dashboard — built with Tailwind CSS.
 
-![screenshot](preview.png)
+![screenshot](https://github.com/user-attachments/assets/6d7e24e9-56ea-4c99-8f60-e772c8342a09)
 
 ##  Features
 
