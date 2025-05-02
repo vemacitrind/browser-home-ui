@@ -10,7 +10,7 @@
     function updateTime() {
       const now = new Date();
       const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-      document.getElementById("time").textContent = `${now.getHours()}:${now.getMinutes()} | ${day[now.getDay()]}`;
+      document.getElementById("time").textContent = `${now.getHours()}:${now.getMinutes().toString().padStart(2, '0')} | ${day[now.getDay()]}`;
 
       const greeting = now.getHours() < 12 ? "Good morning" : now.getHours() < 18 ? "Good afternoon" : now.getHours() < 23 ? "Good evening" : "Good Night";
       document.getElementById("greeting").textContent = `${greeting}, vemacitrind`;
